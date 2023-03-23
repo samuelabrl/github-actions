@@ -3,6 +3,7 @@ name: Continuous integration example
 on: 
   push:
 
+jobs:
   test:
     runs-on: ${{ matrix.os }}
     strategy:
